@@ -2,6 +2,8 @@
 
 ฉบับนี้แยกจาก `ecommerce-admin` / `ecommerce-store` เดิม ไม่ต้องลบหรือ force-push repository เก่า
 
+สถานะวันที่ 10 ตุลาคม 2026: repo ใหม่เป็น Public หลัง CI ผ่าน และ [live demo บน Vercel](https://ecommerce-portfolio-nine-lyart.vercel.app/) ผ่าน Playwright 4 executions โดยไม่ login แล้ว ขั้นตอนด้านล่างเก็บไว้เป็นคู่มือทำซ้ำและตรวจเมื่อแก้โค้ด
+
 ## 1. ตรวจในเครื่อง
 
 ใช้ Node.js **24 LTS รุ่นปัจจุบัน** จาก [เว็บไซต์ Node.js](https://nodejs.org/en/download) แล้วเปิด terminal ใหม่ ตรวจ `node --version` ก่อนเริ่ม เครื่องเดิมมี Node 20.10 ซึ่งเก่าเกินไปสำหรับชุดเครื่องมือในฉบับนี้

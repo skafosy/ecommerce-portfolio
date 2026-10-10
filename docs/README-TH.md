@@ -2,6 +2,8 @@
 
 [English README](../README.md)
 
+[เปิด live demo](https://ecommerce-portfolio-nine-lyart.vercel.app/) — ไม่ต้อง login ใช้ข้อมูลสมมติ ไม่มีการรับเงินจริง
+
 ผลงานชิ้นที่ 2 เน้น React / TypeScript / Tailwind เพื่อเสริมผลงานชิ้นแรกที่เป็น Node.js + PostgreSQL
 
 ## ที่มา
@@ -35,7 +37,7 @@ npm run dev
 
 `check` ต้องผ่าน lint, typecheck, unit/component tests 10 ข้อ และ build จากนั้น Playwright รันทดสอบ 2 เส้นทางบน desktop/mobile Chromium รวม 4 executions
 
-สถานะ live demo และ CI บน GitHub ยังต้องยืนยันหลังเผยแพร่ อย่าใช้ผลทดสอบในเครื่องแทนคำว่า GitHub Actions ผ่านแล้ว
+GitHub Actions ของฉบับเริ่มต้นผ่านแล้ว: [ดูผล CI](https://github.com/skafosy/ecommerce-portfolio/actions/runs/38019637415) และวันที่ 10 ตุลาคม 2026 ทดสอบ Playwright บน live demo จริงโดยไม่ login ผ่านทั้ง 4 executions ดูป้าย CI ใน README ภาษาอังกฤษสำหรับสถานะล่าสุด
 
 ## การใช้ AI
 

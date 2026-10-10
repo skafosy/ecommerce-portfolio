@@ -4,11 +4,11 @@
 
 A small gaming storefront built with **React, Next.js, TypeScript, and Tailwind CSS**. Browse fictional products, search and filter the catalog, and try a persistent demo bag without an account or payment.
 
-**Live demo:** deployment pending. No public URL has been verified yet.
+**[Open the live demo](https://ecommerce-portfolio-nine-lyart.vercel.app/)** — no login required; fictional products and no real payments.
 
 [![CI](https://github.com/skafosy/ecommerce-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/skafosy/ecommerce-portfolio/actions/workflows/ci.yml)
 
-The badge above targets the proposed repository name. GitHub CI is pending until this repository is created and pushed; local checks are not a GitHub CI result.
+GitHub Actions passed for the initial portfolio release on 10 October 2026: [verified CI run](https://github.com/skafosy/ecommerce-portfolio/actions/runs/38019637415). The badge above reflects the latest workflow status.
 
 ![Big B storefront on desktop](docs/screenshots/store-desktop.png)
 
@@ -76,6 +76,8 @@ npm run test:e2e
 Ten unit/component tests cover filtering, sorting, money formatting, API validation, cart quantities and totals, corrupt storage, empty search recovery, add-to-bag behavior, and sold-out controls.
 
 Two Playwright journeys run on desktop Chromium and mobile-sized Chromium (four executions). They exercise the full browse-to-demo-checkout flow and error states. Mobile emulation is not a claim of testing on a physical iPhone or Safari.
+
+On 10 October 2026, all four executions also passed against the public Vercel deployment in fresh browser contexts without login.
 
 ## Working with AI
 
